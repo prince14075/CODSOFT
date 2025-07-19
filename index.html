@@ -3,56 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starbucks Coffee</title>
     <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
 </head>
 <body>
-
-    <header>
-        <div class="logo">☕ Starbucks</div>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#about">About</a>
-            <a href="#menu">Menu</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Starbucks</h1>
-            <p>Freshly brewed happiness in every cup.</p>
-            <a href="#menu" class="btn">Explore Menu</a>
+    <div class="calculator">
+            <input type="text" placeholder="0" id="inputbox">
+        <div>
+            <button class="operator">AC</button>
+            <button class="operator">DEL</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
         </div>
-    </section>
-
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>Starbucks is the world's largest coffeehouse chain. Our mission is to inspire and nurture the human spirit – one person, one cup and one neighborhood at a time.</p>
-    </section>
-
-    <section id="menu" class="menu">
-        <h2>Our Drinks</h2>
-        <div class="drinks">
-            <div class="drink">
-                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=500&q=80" alt="Espresso">
-                <h3>Espresso</h3>
-            </div>
-            <div class="drink">
-                <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=500&q=80" alt="Frappuccino">
-                <h3>Frappuccino</h3>
-            </div>
-            <div class="drink">
-                <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=80" alt="Latte">
-
-                <h3>Latte</h3>
-            </div>
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">*</button>
+        </div><div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">-</button>
         </div>
-    </section>
-
-    <footer id="contact">
-        <p>© 2025 Starbucks. Made for B.Tech Project.</p>
-    </footer>
-
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">+</button>
+        </div>
+        <div>
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="equalbtn">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
